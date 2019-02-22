@@ -200,6 +200,9 @@
 }
 
 /*-------------------------------------*/
+.blog{
+	padding-bottom: 110px;
+}
 .letsBlog p{
 	position: relative;
 }
@@ -220,8 +223,26 @@
 	font-weight: 500;
 }
 .blogInfo{
-	margin: 0 auto!important;
+	margin: 0 200px!important;
 }
 .blog h3{
 	text-align: center;
+}
+.blogInfoColumn h5{
+	color: #11749e;
+	padding-top: 40px;
+}
+.blogInfoColumn p{
+	padding-top: 25px;
+	color: rgba(22,22,22, 0.5);
+}
+.blogFooter{
+	padding-top: 115px;
+	padding-bottom: 160px;
+	background-color: #2e85aa;
+	color: white;
+}
+.imgBlog img{
+	height: 74px;
+	padding-right: 36px;
 }
