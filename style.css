@@ -9,7 +9,7 @@
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
 }
-.container{
+.containerOne{
 	width: 1180px;
 }
 .header{
@@ -129,7 +129,7 @@
 .nameCompany p{
 	position: relative;
 }
-.aboutUnder{
+.aboutUnderOne{
 	font-size: 173px;
 	text-align: center;
 	color: rgba(0,210,255,0.3);
@@ -137,12 +137,12 @@
 	z-index: 2;
 	
 }
-.aboutOver{
+.aboutOverOne{
 	font-size: 25px;
 	text-align: center;
 	color: white;
 	z-index: 5;
-	margin-top: -120px;	
+	margin-top: -165px;
 	padding-bottom: 140px;
 }
 .aboutUnder{
@@ -156,13 +156,14 @@
 	color: white;
 	text-align: center;
 }
+
 .aboutFeatureImage{
 	width: 140px;
 	height: 140px;
 	margin: 0 auto;
 	line-height: 140px;
 	background-color: #2e85aa;
-	border: 0px solid rgba(0,0,0,0);
+	border: 0 solid rgba(0,0,0,0);
 	border-radius: 70px;
 }
 .aboutFeatureImage img{
@@ -174,4 +175,53 @@
 .aboutFeature p{
 	padding-top: 35px;
 	padding-bottom: 130px;
+}
+
+/*------------------------------------------*/
+.infoBlockTextOne{
+	padding-top: 80px;
+	padding-left: 220px!important;
+	background-color: #222222;
+	color: white;
+	font-family: 'Raleway';
+}
+.infoBlockTextTwo{
+	background-color: #f3f3f3;
+	font-family: 'Raleway';
+	padding-top: 80px;
+	padding-left: 85px!important;
+}
+.infoBlockImage{
+	padding: 0!important;
+}
+.infoBlockImage img{
+	width: 800px;
+	height: 450px;
+}
+
+/*-------------------------------------*/
+.letsBlog p{
+	position: relative;
+}
+.letsBlogUnder{
+	font-size: 173px;
+	text-align: center;
+	color: rgba(215,215,215,0.5);
+	font-weight: 600;
+	z-index: 2;
+}
+.letsBlogOver{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	z-index: 5;
+	margin-top: -165px;
+	padding-bottom: 40px;
+	font-weight: 500;
+}
+.blogInfo{
+	margin: 0 auto!important;
+}
+.blog h3{
+	text-align: center;
 }
