@@ -2,7 +2,7 @@
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway'), url('fonts/Raleway/Raleway-Black.woff') format('woff');
+	src: local('Raleway'), url('fonts/Raleway/Raleway-Black.ttf') format('woff');
 }
 *{
 	margin: 0 0;
