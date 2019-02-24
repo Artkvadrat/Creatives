@@ -373,6 +373,48 @@
 	padding-bottom: 40px;
 	font-weight: 500;
 }
-.input{
-	size: 40;
+.inputText{
+	width: 100%;
+    height: 46px;
+    line-height: 46px;
+    background-color: #808080;
+    border-left: 25px solid rgba(0,0,0,0);
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    color: white;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: white;
+}
+input[type="text"]:-ms-input-placeholder {
+    color: white;
+}
+input[type="text"]::-ms-input-placeholder {
+    color: white;
+}
+input[type="text"]::placeholder {
+    color: white;
+}
+#comment{
+    width: 100%;
+    background-color: #808080;
+    border: 25px solid rgba(0,0,0,0);
+    margin-top: 40px;
+    color: white;
+}
+textarea::placeholder {
+    color: white;
+}
+#center{
+    margin: 0 auto;
+}
+#submit{
+    width: 225px;
+    height: 65px;
+    background-color: #2e85aa;
+    border: 0;
+    color: white;
+    margin-top: 42px;
+    margin-bottom: 90px;
 }
